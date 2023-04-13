@@ -2,15 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+<u>NodeJS version: 18.15.0</u>
+
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+
+If you come across errors, try to delete the node_modules folder, and run:
+
+```bash
+npm install
+```
+
+Otherwise don't hesitate to contact me.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
