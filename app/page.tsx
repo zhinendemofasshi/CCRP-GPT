@@ -1,4 +1,5 @@
 // import React from 'react'
+// use heroicons(import a icon package and you can use in use <the name of the icon>)
 import { ChatBubbleBottomCenterTextIcon } from '@heroicons/react/24/outline'
 
 
