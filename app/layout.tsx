@@ -1,3 +1,4 @@
+import SideBar from '@/components/SideBar'
 import '@/styles/globals.css'
 // here to change the title of website.
 export const metadata = {
@@ -14,6 +15,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex">
+          <div className='bg-green-500 max-w-xs h-screen overflow-y-auto
+          md:min-w-[20rem]'>
+            <SideBar/>
+          </div>
+          
           <div className="bg-green-400 flex-1">{children}</div>
         </div>
       </body>

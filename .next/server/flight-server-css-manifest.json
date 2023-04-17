@@ -1,12 +1,12 @@
 {
   "cssImports": {
-    "/Users/ikeyang/Desktop/code/chatgpt-ccrp/app/layout.tsx": [
-      "/Users/ikeyang/Desktop/code/chatgpt-ccrp/styles/globals.css"
+    "D:\\Academic\\InClass\\ProjectsByVSC\\softwareEngineering\\CCRP-GPT\\app\\layout.tsx": [
+      "D:\\Academic\\InClass\\ProjectsByVSC\\softwareEngineering\\CCRP-GPT\\styles\\globals.css"
     ]
   },
   "cssModules": {
-    "/Users/ikeyang/Desktop/code/chatgpt-ccrp/app/page": [
-      "/Users/ikeyang/Desktop/code/chatgpt-ccrp/styles/globals.css"
+    "D:\\Academic\\InClass\\ProjectsByVSC\\softwareEngineering\\CCRP-GPT\\app\\page": [
+      "D:\\Academic\\InClass\\ProjectsByVSC\\softwareEngineering\\CCRP-GPT\\styles\\globals.css"
     ]
   }
 }
