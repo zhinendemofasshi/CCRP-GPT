@@ -16,6 +16,7 @@ function HomePage() {
                 <p className='infoText'>Just ask me questions about cultural relics.</p>
                 <p className='infoText'>Just ask me questions about cultural relics.</p>
             </div>
+            
             <div className="flex flex-col items-center justify-center mb-5">
                 <SunIcon className="h-10 w-10" />
                 <h2>Maybe here is a subtitle</h2>
