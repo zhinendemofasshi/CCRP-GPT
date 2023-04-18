@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Getting Started
@@ -54,6 +54,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/zhinendemofasshi"><img src="https://avatars.githubusercontent.com/u/70048185?v=4?s=100" width="100px;" alt="Ike Yang"/><br /><sub><b>Ike Yang</b></sub></a><br /><a href="#design-zhinendemofasshi" title="Design">🎨</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mengru-wang"><img src="https://avatars.githubusercontent.com/u/130910932?v=4?s=100" width="100px;" alt="mengru-wang"/><br /><sub><b>mengru-wang</b></sub></a><br /><a href="https://github.com/zhinendemofasshi/CCRP-GPT/commits?author=mengru-wang" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
