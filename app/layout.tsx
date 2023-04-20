@@ -17,13 +17,7 @@ export default async function RootLayout({
 }) {
   
   const session = await getServerSession(authOptions);
-  console.log(session)
-  // console.log(process.env.NEXTAUTH_SECRET)
-  // console.log(process.env.GOOGLE_ID)
-  console.log(process.env.GITHUB_ID)
-  console.log(process.env.GITHUB_SECRET)
-  // console.log(process.env.GOOGLE_SECRET)
-
+  console.log(session) // to verify the provider return the session or not
   return (
     <html>
       <head />
