@@ -16,7 +16,6 @@ function Login() {
         onClick={
           () => {
             signIn('google');
-            console.log(process.env.NEXT_PUBLIC_GOOGLE_ID)
         }
       }
         className="text-white font-bold text-3xl animate-pulse"

@@ -15,7 +15,12 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  
   const session = await getServerSession(authOptions);
+  console.log(session)
+  // console.log(process.env.NEXTAUTH_SECRET)
+  // console.log(process.env.GOOGLE_ID)
+  // console.log(process.env.GOOGLE_SECRET)
 
   return (
     <html>
@@ -23,7 +28,7 @@ export default async function RootLayout({
       <body>
         <SessionProvider session={session}>
           {/* here should be session, but there occurs a problem related to google authentication */}
-          {0 ? (
+          {!1 ? (
             <Login />
           ) : (
             <div className="flex">
