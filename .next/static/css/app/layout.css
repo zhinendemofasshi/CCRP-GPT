@@ -503,6 +503,15 @@ video {
 .flex-1 {
   flex: 1 1 0%;
 }
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -527,6 +536,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(22 101 52 / var(--tw-border-opacity));
 }
+.bg-\[\#11A37F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 163 127 / var(--tw-bg-opacity));
+}
 .bg-green-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(187 247 208 / var(--tw-bg-opacity));
@@ -548,6 +561,10 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-5xl {
   font-size: 3rem;
