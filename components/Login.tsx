@@ -15,7 +15,7 @@ function Login() {
       <button
         onClick={
           () => {
-            signIn('google');
+            signIn('github');
         }
       }
         className="text-white font-bold text-3xl animate-pulse"

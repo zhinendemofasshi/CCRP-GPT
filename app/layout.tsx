@@ -20,6 +20,8 @@ export default async function RootLayout({
   console.log(session)
   // console.log(process.env.NEXTAUTH_SECRET)
   // console.log(process.env.GOOGLE_ID)
+  console.log(process.env.GITHUB_ID)
+  console.log(process.env.GITHUB_SECRET)
   // console.log(process.env.GOOGLE_SECRET)
 
   return (
@@ -28,7 +30,7 @@ export default async function RootLayout({
       <body>
         <SessionProvider session={session}>
           {/* here should be session, but there occurs a problem related to google authentication */}
-          {!1 ? (
+          {!session ? (
             <Login />
           ) : (
             <div className="flex">
