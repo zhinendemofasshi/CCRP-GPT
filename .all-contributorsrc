@@ -1,0 +1,34 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "zhinendemofasshi",
+      "name": "Ike Yang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70048185?v=4",
+      "profile": "https://github.com/zhinendemofasshi",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "mengru-wang",
+      "name": "mengru-wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130910932?v=4",
+      "profile": "https://github.com/mengru-wang",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "CCRP-GPT",
+  "projectOwner": "zhinendemofasshi"
+}
