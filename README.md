@@ -7,17 +7,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <u>NodeJS version: 18.15.0</u>
 
-First, run the development server:
+First, install the modules needed in this project:
+
+```bash
+npm install
+```
+
+Then run the server
 
 ```bash
 npm run dev
 ```
 
-If you come across errors, try to delete the node_modules folder, and run:
-
-```bash
-npm install
-```
 
 Otherwise don't hesitate to contact me.
 
