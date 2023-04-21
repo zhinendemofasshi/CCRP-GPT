@@ -13,11 +13,9 @@ function Login() {
         alt="logo"
       />
       <button
-        onClick={
-          () => {
-            signIn('github');
-        }
-      }
+        onClick={() => {
+          signIn("github");
+        }}
         className="text-white font-bold text-3xl animate-pulse"
       >
         Sign in to use CCRP-GPT
