@@ -11,7 +11,7 @@ function ModelSelection() {
     fallbackData: "text-davinci-003",
   });
   return (
-    <div>
+    <div className="mt-2 ">
       <Select
         className="mt-2"
         options={models?.modelOptions}
