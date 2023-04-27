@@ -18,7 +18,7 @@ function SideBar() {
         orderBy("createdAt", "asc")
       )
   );
-  console.log(chats);
+  // console.log(chats);
   return (
     <div className="p-4 flex flex-col h-screen bg-green-200">
       <div className="flex-1">

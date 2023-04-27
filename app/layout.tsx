@@ -17,7 +17,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const session = await getServerSession(authOptions);
-  console.log(session); // to verify the provider return the session or not
+  //console.log(session); // to verify the provider return the session or not
   return (
     <html>
       <head />
