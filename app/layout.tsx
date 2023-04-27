@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth";
 import "@/styles/globals.css";
 import { authOptions } from "../pages/api/auth/[...nextauth]";
 import Login from "@/components/Login";
+import ClientProvider from "@/components/ClientProvider";
 // here to change the title of website.
 export const metadata = {
   title: "ChatGPT-CCRP",
@@ -15,9 +16,8 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  
   const session = await getServerSession(authOptions);
-  console.log(session) // to verify the provider return the session or not
+  console.log(session); // to verify the provider return the session or not
   return (
     <html>
       <head />
@@ -34,6 +34,8 @@ export default async function RootLayout({
               >
                 <SideBar />
               </div>
+              {/* ClientProvider - Notifications */}
+              <ClientProvider />
               <div className="bg-green-400 flex-1">{children}</div>
             </div>
           )}
