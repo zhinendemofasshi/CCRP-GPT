@@ -76,7 +76,7 @@ function ChatInput({ chatId }: Props) {
   };
 
   return (
-    <div className="bg-green-700/50 text-green-400 rounded-lg text-sm">
+    <div className="chatinput text-green-400 rounded-lg text-sm">
       <form onSubmit={sendMessage} className="p-5 space-x-5 flex">
         <input
           className="bg-transparent focus:outline-none flex-1
@@ -91,7 +91,7 @@ function ChatInput({ chatId }: Props) {
         <button
           disabled={!prompt || !session}
           type="submit"
-          className="bg-gray hover:opacity-50 text-white font-bold
+          className="chatinputbutton hover:opacity-50 text-white font-bold
                 px-4 py-2 rounded disabled:bg-green-300
                 disabled:cursor-not-allowed"
         >

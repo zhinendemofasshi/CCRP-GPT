@@ -36,3 +36,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.chatinput{
+  padding: 0 2em;
+  margin: 0 13em 2em;
+  border-radius: 1.5rem;
+  background-color: rgb(33 157 76);
+}
+
+.chatinputbutton{
+  background-color: rgb(35 211 86);
+}
+
+.chatmessage{
+  background-color: rgb(14 181 105);
+  border-radius: 1.5em;
+  margin: 1em 12em;
+}
